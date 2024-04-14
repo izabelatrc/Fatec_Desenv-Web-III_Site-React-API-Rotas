@@ -1,0 +1,13 @@
+# Especifica o diretório de construção para o aplicativo React
+[build]
+  publish = "build"
+
+# Especifica o comando de build personalizado, se necessário
+# Por padrão, para projetos Create React App, isso não é necessário
+# command = "npm run build"
+
+# Configura redirecionamentos e reescrita de URLs, se necessário
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
