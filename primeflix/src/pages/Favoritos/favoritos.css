@@ -1,62 +1,91 @@
-.meus-filmes{
+.minha-lista{
     margin: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 60px;
 }
 
-.meus-filmes h1{
-    margin-bottom: 14px;
+.minha-lista h1{
+    margin-block: 30px;
 }
 
-.meus-filmes span{
-    font-size: 18px;
-}
-
-.meus-filmes ul{
-    width: 720px;
-}
-
-.meus-filmes ul li{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 14px;
-}
-
-.meus-filmes div{
-    display: flex;
-    align-items: center;
+.minha-lista ul{
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
+    justify-items: center;
+    align-items: flex-end;
+    gap: 20px;
+    list-style: none;
+    padding: 0 8px;
 }
 
-.meus-filmes div a{
+.minha-lista li{
+    list-style: none;
+    margin-bottom: 14px;
+}
+
+.minha-lista article{
+    width: 100%;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.minha-lista strong{
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 22px;
+    display: block;
+    height: max-content;
+}
+
+.minha-lista img{
+
+    width: 900px;
+    max-width: 100%;
+    max-height: 340px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+.minha-lista div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.botoes a{
     text-decoration: none;
-    color: #116feb;
+    color: #fff;
     font-size: 16px;
     margin-right: 14px;
     padding: 8px;
     border-radius: 4px;
-    background-color: aliceblue;
+    background-color: #116feb;
 }
 
-.meus-filmes button{
+.botoes button{
+    color: #fff;
     border: 0;
-    outline: none;
     padding: 8px;
     border-radius: 4px;
     cursor: pointer;
-    transition: all 0.5s;
     font-size: 16px;
-    background-color: aliceblue;
+    background-color: #ff5555;
 }
 
-.meus-filmes div a:hover{
+.botoes a:hover{
     background-color: blue;
     color: #fff;
 }
-.meus-filmes button:hover{
+.botoes button:hover{
     background-color: red;
     color: #fff;
 }

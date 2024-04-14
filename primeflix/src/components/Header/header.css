@@ -7,10 +7,12 @@ header{
     padding: 0 40px;
     background-color: black;
     color: white;
+    position: fixed;
+    top: 0;
 }
 
 .header-container{
-    width: 1080px;
+    width: 1098px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -32,4 +34,9 @@ header{
     font-weight: bold;
     padding: 5px 14px;
     border-radius: 4px;
+}
+
+.favoritos:hover{
+    background-color: #116feb;
+    color: white;
 }

@@ -21,8 +21,8 @@ function Favoritos() {
     }
 
     return (
-        <div className="meus-filmes">
-            <h1>Meus Filmes</h1>
+        <div className="minha-lista">
+            <h1>Minha Lista</h1>
 
             {filmes.length === 0 && <span>Você não possui nenhum filme salvo :( </span>}
 
@@ -30,14 +30,21 @@ function Favoritos() {
                 {filmes.map((item) => {
                     return (
                         <li key={item.id}>
-                            <span>{item.title}</span>
-                            <div>
+                            <article className='filmes'>
+                                <strong>{item.title}</strong>
+                                <img
+                                src={`https://image.tmdb.org/t/p/original/${item.poster_path}`}
+                                alt={item.title}
+                                />
+                            </article>
+                            <div className="botoes">
                                 <Link to={`/filme/${item.id}`}>Ver Detalhes</Link>
                                 <button onClick={() => excluirFilme(item.id)}>Remover</button>
                             </div>
                         </li>
                     )
                 })}
+                
             </ul>
 
         </div>

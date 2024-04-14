@@ -6,7 +6,7 @@ function Header() {
         <header>
             <div className="header-container"> 
                 <Link className='logo' to='/'>PrimeFlix</Link>
-                <Link className='favoritos' to='/favoritos'>Meus Filmes</Link>
+                <Link className='favoritos' to='/favoritos'>Minha Lista</Link>
             </div>
         </header>
     );
