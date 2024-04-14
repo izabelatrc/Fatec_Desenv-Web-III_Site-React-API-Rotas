@@ -76,19 +76,19 @@ A lista utiliza o localhoast do navegador.
 
 #### Pré-requisitos:
 
-Ter instalado npm
+- Ter instalado npm
 
 #### Clonar o repositório:
 
-git clone https://github.com/izabelatrc/Fatec_Desenv-Web-III_Site-React-API-Rotas
+- git clone https://github.com/izabelatrc/Fatec_Desenv-Web-III_Site-React-API-Rotas
 
 #### Entrar na pasta do projeto:
 
-cd primeflix
+- cd primeflix
 
 #### Executar:
 
-npm start ou npm run dev
+- npm start ou npm run dev
 
 # Autora :v:
 
