@@ -1,6 +1,6 @@
 # PrimeFlix 🎬
 
-![NPM](https://img.shields.io/npm/l/react) <br/>
+![NPM](https://img.shields.io/npm/l/react)
 Trabalho 3 - Desenvolvimento Web III <br />
 
 # Link do site :fire:
@@ -74,16 +74,20 @@ A lista utiliza o localhoast do navegador.
 
 # Como executar o projeto :computer:
 
-Pré-requisitos:
+#### Pré-requisitos:
+
 Ter instalado npm
 
-Clonar o repositório:
+#### Clonar o repositório:
+
 git clone https://github.com/izabelatrc/Fatec_Desenv-Web-III_Site-React-API-Rotas
 
-Entrar na pasta do projeto:
+#### Entrar na pasta do projeto:
+
 cd primeflix
 
-Executar:
+#### Executar:
+
 npm start ou npm run dev
 
 # Autora :v:
