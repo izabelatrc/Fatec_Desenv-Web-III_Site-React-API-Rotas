@@ -1,6 +1,8 @@
 import RoutesApp from "./routes";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "./components/Footer";
+
 
 function App() {
   return (
