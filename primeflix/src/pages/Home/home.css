@@ -165,3 +165,19 @@ nav{
 .lista-filmes a:hover{
     background-color: #0b5c9e;
 }
+
+.scroll-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #116feb;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    justify-items: end;
+}

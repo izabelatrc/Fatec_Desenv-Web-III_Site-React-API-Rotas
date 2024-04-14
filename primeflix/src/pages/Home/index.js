@@ -12,6 +12,8 @@ function Home() {
     const [loading, setLoading] = useState(true);
     const [filmeBuscado, setFilmeBuscado] = useState([]);
     const [input, setInput] = useState("");
+    const [showScrollButton, setShowScrollButton] = useState(false);
+
 
     useEffect(() => {
         async function loadFilmesCartaz() {   
@@ -73,6 +75,29 @@ function Home() {
     
     }, []);
 
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.pageYOffset > 200) {
+                setShowScrollButton(true);
+            } else {
+                setShowScrollButton(false);
+            }
+        };
+      
+        window.addEventListener("scroll", handleScroll);
+      
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
+    const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+    };
+  
     // Função para lidar com a busca de filmes
     async function handleBuscarFilmes(termoBusca) {
         const response = await api.get("search/movie", {
@@ -205,6 +230,11 @@ function Home() {
                     );
                 })}
             </div>
+            {showScrollButton && (
+                <button onClick={scrollToTop} className="scroll-button">
+                    <i className="fas fa-arrow-up"></i>
+                </button>
+            )}
         </div>
     );
 }
