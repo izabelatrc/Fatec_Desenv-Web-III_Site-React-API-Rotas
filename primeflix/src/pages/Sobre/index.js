@@ -1,7 +1,7 @@
 import './sobre.css';
 function Sobre() {
     return (
-        <div>
+        <div className="sobre">
         <div className="sobre-container">
             <h1>Sobre o Site</h1>
             <p>O site "PrimeFlix" é um projeto desenvolvido como parte do método de avaliação do curso de DSM 3º 
