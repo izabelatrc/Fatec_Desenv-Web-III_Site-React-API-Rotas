@@ -30,31 +30,35 @@ A lista utiliza o localhoast do navegador.
 
 ## Home
 
-![Print home](/primeflix/docs/image-8.png)
+![Print home](/primeflix/docs/home.png)
 
 ## Em cartaz
 
-![Print em cartaz](/primeflix/docs/image-9.png)
+![Print em cartaz](/primeflix/docs/em-cartaz.png)
 
 ## Ao acessar um filme
 
-![Print acessando um filme](/primeflix/docs/image-3.png)
+![Print acessando um filme](/primeflix/docs/detalhes-filme.png)
 
 ## Teste de Busca
 
-![Print buscando por Duna](/primeflix/docs/image-10.png)
+![Print buscando por Duna](/primeflix/docs/busca.png)
 
 ## Minha Lista
 
-![Print milha lista](/primeflix/docs/image-7.png)
+![Print milha lista](/primeflix/docs/minha-lista.png)
 
 ## Em breve
 
-![Print em breve](/primeflix/docs/image-6.png)
+![Print em breve](/primeflix/docs/em-breve.png)
 
 ## Populares
 
-![Print populares](/primeflix/docs/image-5.png)
+![Print populares](/primeflix/docs/populares.png)
+
+## Sobre
+
+![Print sobre](/primeflix/docs/sobre.png)
 
 # Tecnologias utilizadas :sparkles:
 
