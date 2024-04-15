@@ -133,14 +133,6 @@ function Home() {
     return (
         <div className="container">
         <div className="divisoria" id="busca"></div>
-            <nav id="nav">
-                <ul className='menu'>
-                    <li><a href="/#em-cartaz">Em cartaz</a></li>
-                    <li><a href="/#em-breve">Em breve</a></li>
-                    <li><a href="/#populares">Populares</a></li>
-                    <li><a href="/#melhores-avaliados">Melhores Avaliados</a></li>
-                </ul>
-            </nav>
             <form onSubmit={handleSubmit} className="form-busca" id="inicio">
                 <input className="input-busca"
                 placeholder="Procure por um filme..."
