@@ -27,6 +27,12 @@
     margin: 8px 0;
 }
 
+.area-buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 14px;
+}
+
 .area-buttons button{
     margin-right: 12px;
     margin-top: 14px;
