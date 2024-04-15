@@ -13,6 +13,33 @@
     margin-top: 14px;
 }
 
+nav{
+    width: 1098px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    gap: 14px;
+    flex-direction: row;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover{
+    color: #116feb;
+}
+
 .form-busca{
     margin-top: 24px;
     display: flex;

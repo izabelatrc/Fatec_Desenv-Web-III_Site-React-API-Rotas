@@ -17,8 +17,6 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    text-align: center;
-    justify-items: center;
 }
 
 .logo{
@@ -26,31 +24,6 @@ header{
     font-size: 30px;
     color: white;
     font-weight: bold;
-}
-
-nav{
-    width: 1098px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.menu{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-
-.menu li{
-    list-style: none;
-}
-.menu a{
-    text-decoration: none;
-    color: white;
-}
-
-.menu a:hover{
-    color: #116feb;
 }
 
 .favoritos{
@@ -61,7 +34,6 @@ nav{
     font-weight: bold;
     padding: 5px 14px;
     border-radius: 4px;
-    width: 150px;
 }
 
 .favoritos:hover{
