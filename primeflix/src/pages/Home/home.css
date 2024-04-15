@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -87,14 +93,17 @@
 }
 
 .title{
-    margin: 24px;
-    padding: 14px;
+    margin-block: 24px;
+    display: flex;
     width: 1098px;
-    background-color: #000;
+    background-color: #0a0a0a;
     color: #fff;
-    display: flex; 
-    justify-content: center;
     border-radius: 8px;
+}
+
+.title h1{
+    margin: 14px 0;
+    padding: 0 8px;
 }
 
 .lista-filmes article{
