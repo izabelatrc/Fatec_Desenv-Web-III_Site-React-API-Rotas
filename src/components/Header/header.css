@@ -32,19 +32,19 @@ nav{
     width: 1098px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-}
+   }
 
 .menu{
     display: flex;
+    gap: 18px;
     flex-direction: row;
-    gap: 20px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
 }
 
-.menu li{
-    list-style: none;
-}
 .menu a{
     text-decoration: none;
     color: white;
