@@ -1,7 +1,6 @@
 # PrimeFlix 🎬
 
 ![NPM](https://img.shields.io/npm/l/react)
-Trabalho 3 - Desenvolvimento Web III <br />
 
 # Link do site :fire:
 
