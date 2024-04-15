@@ -5,11 +5,6 @@ div{
     justify-content: center;
     width: 100%;
 }
-.sobre-container{
-    width: 1098px;
-    height: calc(100vh - 40px);
-}
-
 
 h1{
     margin: 24px;
@@ -18,4 +13,23 @@ h1{
     display: flex; 
     justify-content: center;
     border-radius: 8px;
+}
+
+.sobre-container{
+    width: 1098px;
+    height: calc(100vh - 40px);
+    text-align: center;
+}
+
+.sobre-container p{
+    padding: 14px;
+    width: 1098px;
+    display: flex; 
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.sobre-container li{
+    list-style: none;
+    padding: 4px 8px;
 }

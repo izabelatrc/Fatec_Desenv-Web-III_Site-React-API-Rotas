@@ -4,11 +4,10 @@ function Sobre() {
         <div>
         <div className="sobre-container">
             <h1>Sobre o Site</h1>
-            <p>
-                O site "PrimeFlix" é um projeto desenvolvido como parte do método de avaliação do curso de DSM 3º semestre da Fatec Franca.<br></br>
-                Foi utilizada a API do TMDB (https://www.themoviedb.org/) para fornecer os dados atualizados.<br></br>
-                O site foi implementado para:<br></br>
-            </p>
+            <p>O site "PrimeFlix" é um projeto desenvolvido como parte do método de avaliação do curso de DSM 3º 
+                semestre da Fatec Franca.</p>
+            <p>Foi utilizada a API do TMDB (https://www.themoviedb.org/) para fornecer os dados atualizados.</p><br></br>
+            <p>O site foi implementado para:</p><br></br>
             <ul>
                 <li>Buscar por filmes;</li>
                 <li>Listar os filmes EM CARTAZ;</li>
